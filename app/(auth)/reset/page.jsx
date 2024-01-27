@@ -36,7 +36,7 @@ const ResetPage = () => {
                 theme: "light",
             });
             setTimeout(() => {
-                router.push("/login")
+                router.push("/reset")
             }, 1000);
         }
         if (submitButtonClicked && users.status === "error") {
