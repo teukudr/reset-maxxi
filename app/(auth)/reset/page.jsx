@@ -124,7 +124,7 @@ const ResetPage = () => {
                                         >
                                             Retype New Password
                                         </InputAuth>
-                                        <button type="submit" className="px-6 py-3 text-sm text-white rounded-2xl bg-bnr-primary bg-[#6A76B9]" disabled={isSubmitting}>Submit</button>
+                                        <button type="submit" className="px-6 py-3 text-sm text-white rounded-2xl bg-[#6A76B9]" disabled={isSubmitting}>Submit</button>
                                     </Form>
                                 )
                             }}
